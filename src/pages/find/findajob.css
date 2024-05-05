@@ -1,0 +1,165 @@
+.findMain {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.findMain .containerOne {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.findMain .containerOne img {
+    width: 60%;
+    height: 80%;
+}
+
+.findMain .containerOne span {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(80, 150, 255);
+}
+
+.findMain .containerTwo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.findMain .containerTwo .accordion {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.findMain .containerTwo .accordion .accodion-summary {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.findMain .containerTwo .accordion .accodion-summary .list {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.findMain .containerTwo .accordion .accodion-summary .list li {
+    width: auto;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findMain .containerTwo .accordion .accodion-summary .list li:first-child {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.findMain .containerTwo .accordion .accodion-summary .btn {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findMain .containerTwo .accordion .accodion-summary .btn .enable {
+    width: auto;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.findMain .containerTwo .accordion .accodion-summary .btn .disable {
+    background-color: grey;
+    cursor: none;
+    font-size: 15px;
+}
+
+
+@media(max-width: 950px) {
+
+    .findMain .containerOne {
+        height: 300px;
+    }
+
+    .findMain .containerOne img {
+        width: 50%;
+        height: 40%;
+    }
+
+    .findMain .containerOne span {
+        font-size: 30px;
+    }
+
+    .findMain .containerTwo .accordion .accodion-summary .list li {
+        font-size: 14px;
+    }
+
+    .findMain .containerTwo .accordion .accodion-summary .list li:first-child {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 820px) {
+    .findMain .containerTwo .accordion .accodion-summary .list {
+        width: 60%;
+        flex-direction: column;
+    }
+
+    .findMain .containerTwo .accordion .accodion-summary .btn {
+        width: 20%;
+    }
+    
+}
+
+
+
+@media(max-width: 500px) {
+
+    .findMain .containerOne span {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .findMain .containerTwo .accordion .accodion-summary .list li {
+        font-size: 12px;
+    }
+
+    .findMain .containerTwo .accordion .accodion-summary .list li:first-child {
+        font-size: 14px;
+    }
+}
+
+
+
+

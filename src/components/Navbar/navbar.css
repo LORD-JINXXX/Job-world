@@ -1,0 +1,245 @@
+.navMain {
+    margin: 0;
+    padding: 0;
+}
+
+.navMain .navContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 3px;
+}
+
+
+.navMain .navContainer .container {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMain .navContainer .container ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navMain .navContainer .container ul .lineone {
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    background-color: black;
+    z-index: 1;
+    left: 0;
+}
+
+
+.navMain .navContainer .container ul .containerOne {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 2;
+    margin-right: 80px;
+}
+
+.navMain .navContainer .container ul .containerOne span {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMain .navContainer .container ul .containerOne span:first-child {
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+.navMain .navContainer .container ul .containerOne span:first-child h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.navMain .navContainer .container ul .containerOne span:last-child {
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+.navMain .navContainer .container ul .containerOne span:last-child h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+.navMain .navContainer .container ul .containerTwo {
+    width: 700px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.navMain .navContainer .container ul .containerTwo .link {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+.navMain .navContainer .container ul .containerTwo .link:hover {
+    font-size: 20px;
+}
+
+
+.navMain .navContainer .container ul .containerThree {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+
+.navMain .navContainer .container ul .containerThree button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.navMain .navContainer .container ul .containerThree button:hover {
+    border: 2px solid #2196F3;
+}
+
+
+.navMain .navContainer .container ul .containerFour {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.navMain .navContainer .container ul .containerFour .menuIcon {
+    display: none;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: rgb(0, 145, 255);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+}
+
+@media(max-width: 950px) {
+    .navMain .navContainer .container ul .containerOne{
+        width: 150px;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    .navMain .navContainer .container ul .containerOne span {
+        width: 75px;
+    }
+
+    .navMain .navContainer .container ul .containerOne span:first-child h2 {
+        font-size: 16px;
+    }
+
+    .navMain .navContainer .container ul .containerOne span:last-child h2 {
+        font-size: 16px;
+    }
+
+    .navMain .navContainer .container ul .containerTwo {
+        display: none;
+    }
+
+    .navMain .navContainer .container ul .containerThree {
+        display: none;
+    }
+
+    .navMain .navContainer .container ul .containerFour {
+        height: 30px;
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .navMain .navContainer .container ul .containerFour .menuIcon {
+        display: block;
+        z-index: 2;
+    }
+}
+
+@media(max-width: 550px) {
+
+    .navMain .navContainer .container ul .containerOne{
+        width: 100px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+
+    .navMain .navContainer .container ul .containerOne span {
+        width: 50px;
+    }
+
+    .navMain .navContainer .container ul .containerOne span:first-child h2 {
+        font-size: 14px;
+    }
+
+    .navMain .navContainer .container ul .containerOne span:last-child h2 {
+        font-size: 14px;
+    }
+
+    .navMain .navContainer .container ul .containerFour {
+        width: 50px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+}
+
+

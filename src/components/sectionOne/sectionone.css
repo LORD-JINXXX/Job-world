@@ -1,0 +1,266 @@
+.sectionOneMain {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOneMain .container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionOneMain .container .boxOne {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sectionOneMain .container .boxOne .boxOneHeading {
+    font-family: "Jost", sans-serif;
+    color: rgb(48, 146, 243);
+}
+
+.sectionOneMain .container .boxTwo {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sectionOneMain .container .boxTwo .jobseeker {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    flex-direction: column;
+}
+
+.sectionOneMain .container .boxTwo .jobseeker img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px rgba(47, 47, 47, 0.4), -2px -2px 5px 2px rgba(47, 46, 46, 0.4);
+}
+
+.sectionOneMain .container .boxTwo .jobseeker button {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 160, 255);
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+.sectionOneMain .container .boxTwo .jobseeker button:hover {
+    background-color: rgb(31, 89, 152);
+}
+
+
+.sectionOneMain .container .boxTwo .jobposter {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    flex-direction: column;
+}
+
+.sectionOneMain .container .boxTwo .jobposter img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px rgba(47, 47, 47, 0.4), -2px -2px 5px 2px rgba(47, 46, 46, 0.4);
+}
+
+.sectionOneMain .container .boxTwo .jobposter button {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 160, 255);
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+.sectionOneMain .container .boxTwo .jobposter button:hover {
+    background-color: rgb(31, 89, 152);
+}
+
+@media(max-width: 950px) {
+    .sectionOneMain .container .boxOne {
+        height: 80px;
+    }
+
+    .sectionOneMain .container .boxOne .boxOneHeading {
+        font-size: 40px;
+    }
+
+    .sectionOneMain .container .boxTwo {
+        flex-direction: column;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker {
+        width: 100%;
+        height: 150px;
+        flex-direction: row;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker img {
+        width: 50%;
+        height: 100%;
+        margin: 0 20px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker button {
+        top: 0;
+        margin: 0 20px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter {
+        width: 100%;
+        height: 150px;
+        flex-direction: row;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter {
+        width: 100%;
+        height: 150px;
+        flex-direction: row;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter img {
+        width: 50%;
+        height: 100%;
+        margin: 0 20px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter button {
+        top: 0;
+        margin: 0 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .sectionOneMain {
+        height: 800px;
+    }
+
+    .sectionOneMain .container .boxOne {
+        height: 40px;
+        margin: 20px 0 10px 0;
+    }
+
+    .sectionOneMain .container .boxOne .boxOneHeading {
+        font-size: 30px;
+    }
+
+    .sectionOneMain .container .boxTwo {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker img {
+        width: 70%;
+        height: 60%;
+        margin: 10px 0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker button {
+        top: 0;
+        margin: 10px 0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter img {
+        width: 70%;
+        height: 60%;
+        margin: 10px 0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter button {
+        top: 0;
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .sectionOneMain .container .boxOne {
+        margin: 20px 0 5px 0;
+    }
+
+    .sectionOneMain .container .boxOne .boxOneHeading {
+        font-size: 25px;
+    }
+
+    .sectionOneMain .container .boxTwo {
+        margin: 5px 0 10px 0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker {
+        margin:0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker img {
+        margin-bottom: 5px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobseeker button {
+        margin-top: 10px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter {
+        margin:0;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter img {
+        margin-bottom: 5px;
+    }
+
+    .sectionOneMain .container .boxTwo .jobposter button {
+        margin-top: 10px;
+    }
+}
